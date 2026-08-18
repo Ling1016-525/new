@@ -1,0 +1,18 @@
+--shop的命令提示字元
+
+mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\orders.sql > orders.tsv
+
+mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\brand_lookup.sql > brand_lookup.tsv
+
+mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\categories.sql > categories.tsv
+
+mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\city_lookup.sql > city_lookup.tsv
+
+mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\members.sql > members.tsv
+
+mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\order_items.sql > order_items.tsv
+
+mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\products.sql > products.tsv
+
+--前面的F:\RRR\0818 是指開啟的資料夾不需要輸入在指令上
+--< sql\ 指定路徑 products.sql 使用這個語法 products.tsv生成這個.tsv的檔案
