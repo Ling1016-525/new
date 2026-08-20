@@ -18,3 +18,4 @@ mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\prod
 --< sql\ 指定路徑 products.sql 使用這個語法 products.tsv生成這個.tsv的檔案
 
 --新增123000
+--
