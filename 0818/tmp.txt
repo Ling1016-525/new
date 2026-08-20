@@ -16,3 +16,5 @@ mysql -u root -p"Xj3mcm1016xu*6" --default-character-set=utf8mb4 shop < sql\prod
 
 --前面的F:\RRR\0818 是指開啟的資料夾不需要輸入在指令上
 --< sql\ 指定路徑 products.sql 使用這個語法 products.tsv生成這個.tsv的檔案
+
+--新增
