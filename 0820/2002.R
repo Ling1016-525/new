@@ -28,7 +28,9 @@ orders <- read_tsv("./0818/orders.tsv")
 
 print(class(orders))
 
+print(orders)
+
 ordersTb <- tibble( orders )
 
-print(class(orders))
+print(class(ordersTb))
 
